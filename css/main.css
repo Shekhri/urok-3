@@ -189,7 +189,7 @@ img {
   margin-top: 100px;
 }
 .about h2 {
-  font-family: "Roboto";
+  font-family: "Poppins";
   font-size: 40px;
   font-weight: 700;
   line-height: 47px;
@@ -252,7 +252,7 @@ img {
   margin-top: 100px;
 }
 .colleaction h2 {
-  font-family: "Roboto";
+  font-family: "Poppins";
   font-size: 40px;
   font-weight: 700;
   line-height: 47px;
@@ -262,7 +262,7 @@ img {
   text-align: center;
 }
 .colleaction p {
-  font-family: Poppins;
+  font-family: "Poppins";
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;
@@ -306,7 +306,6 @@ img {
 }
 
 .card {
-  margin-top: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -397,7 +396,7 @@ img {
   margin-top: 100px;
 }
 .artwork h2 {
-  font-family: "Roboto";
+  font-family: "Poppins";
   font-size: 40px;
   font-weight: 700;
   line-height: 47px;
@@ -407,7 +406,31 @@ img {
   text-align: center;
 }
 .artwork p {
-  font-family: Poppins;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 20px;
+}
+
+.creator {
+  margin-top: 100px;
+}
+.creator h2 {
+  font-family: "Poppins";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 47px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.creator p {
+  font-family: "Poppins";
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;
