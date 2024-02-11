@@ -37,3 +37,25 @@ var data = [
     },
    
 ]
+
+var data2 = [
+    {
+        id: 1,
+        image: './assets/images/box1.png',
+        Name: '@Alex',
+        price: '0.005 ETH'
+    },
+    {
+        id: 1,
+        image: './assets/images/box2.png',
+        Name: '@Vorya',
+        price: '0.006 ETH'
+    },
+    {
+        id: 1,
+        image: './assets/images/box3.png',
+        Name: '@Mira',
+        price: '0.007 ETH'
+    },
+
+]
