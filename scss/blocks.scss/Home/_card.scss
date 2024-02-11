@@ -1,0 +1,99 @@
+.card {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+.box:hover {
+    background-color: gray;
+
+    button{
+        background-color: transparent;
+        border: 1px solid rgba(183, 92, 255, 1);
+        color: rgba(183, 92, 255, 1);
+    }
+}
+
+    .box {
+        width: 389px;
+        height: 595px;
+        padding: 25px;
+        border-radius: 10px;
+        background-color: #ffffff23;
+        margin-top: 20px;
+
+        img {
+            width: 339px;
+        }
+
+        .top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+            gap: 30px;
+
+            .left {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .right {
+                display: flex;
+                flex-direction: column;
+                gap: 7px;
+            }
+
+            small {
+                font-family: 'Poppins';
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 30px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: rgba(255, 255, 255, 0.5);
+            }
+
+            p {
+                font-family: 'Poppins';
+                font-size: 15px;
+                font-weight: 500;
+                line-height: 23px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: rgba(255, 255, 255, 0.5);
+            }
+
+            h3 {
+                font-family: 'Poppins';
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 30px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: rgba(255, 255, 255, 1);
+            }
+        }
+
+        button {
+            width: 337px;
+            height: 50px;
+            border-radius: 10px;
+            border: none;
+            padding: 10px 20px;
+            gap: 10px;
+            background-color: rgba(183, 92, 255, 1);
+            margin-top: 20px;
+            font-family: "Poppins";
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 30px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: #fff;
+
+        }
+    }
+
+}

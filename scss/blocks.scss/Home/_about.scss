@@ -1,0 +1,64 @@
+.about{
+    margin-top: 100px;
+    h2{
+font-family: 'Roboto';
+font-size: 40px;
+font-weight: 700;
+line-height: 47px;
+letter-spacing: 0em;
+text-align: left;
+color: rgb(255, 255, 255, 1);
+text-align: center;
+    }
+    p{
+        font-family: Poppins;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+color: rgb(255, 255, 255, 0.5);
+margin-top: 20px;
+    }
+    .card{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+
+        img{
+            width: 490px;
+            height: 600px;
+        }
+        h3{
+            font-family: 'Poppins';
+font-size: 30px;
+font-weight: 700;
+line-height: 45px;
+letter-spacing: 0em;
+text-align: left;
+color: #fff;
+        }
+        p{
+            font-family: Poppins;
+font-size: 20px;
+font-weight: 500;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+        }
+        button{
+            background-color: rgba(183, 92, 255, 1);
+            padding: 10px 20px;
+            border-radius: 10px;
+            font-family: 'Poppins';
+            font-family: 500;
+            font-size: 20px;
+            line-height: 30px;
+            color: rgba(255, 255, 255, 1);
+            border: none;
+            margin-top: 30px;
+        }
+    }
+ 
+}

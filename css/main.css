@@ -14,6 +14,17 @@ html, body {
 body {
   font-family: "Arial", sans-serif;
   line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  background-color: #0c0f1f;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
 }
 
 img {
@@ -21,9 +32,363 @@ img {
 }
 
 .container {
-  max-width: 1240px;
+  max-width: 1200px;
   width: 100%;
   margin: 0 auto;
   padding: 0 10px;
   height: 100vh;
+}
+
+.header {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header img {
+  width: 133px;
+  height: 38px;
+}
+.header ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+}
+.header input {
+  width: 30%;
+  padding: 10px 30px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.137254902);
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.5);
+}
+.header a {
+  font-family: "Poppins";
+  font-family: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgb(255, 255, 255);
+}
+.header button {
+  background-color: rgb(183, 92, 255);
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-family: "Poppins";
+  font-family: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgb(255, 255, 255);
+}
+
+.hero {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero h1 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+  color: rgb(255, 255, 255);
+}
+.hero p {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 36px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 20px;
+}
+.hero .center {
+  margin-top: 30px;
+}
+.hero .active {
+  background-color: rgb(183, 92, 255);
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-family: "Poppins";
+  font-family: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgb(255, 255, 255);
+  border: none;
+  margin-right: 20px;
+}
+.hero button {
+  background-color: rgba(255, 255, 255, 0.137254902);
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-family: "Poppins";
+  font-family: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgb(255, 255, 255);
+  border: none;
+}
+.hero ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.hero ul h3 {
+  font-family: "Poppins";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+.hero ul p {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 2px;
+}
+.hero .right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.hero .right .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.hero .right .center {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero__bottom {
+  margin: 100px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 30px;
+}
+
+.about {
+  margin-top: 100px;
+}
+.about h2 {
+  font-family: "Roboto";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 47px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.about p {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 20px;
+}
+.about .card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.about .card img {
+  width: 490px;
+  height: 600px;
+}
+.about .card h3 {
+  font-family: "Poppins";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+.about .card p {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.about .card button {
+  background-color: rgb(183, 92, 255);
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-family: "Poppins";
+  font-family: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgb(255, 255, 255);
+  border: none;
+  margin-top: 30px;
+}
+
+.colleaction {
+  margin-top: 100px;
+}
+.colleaction h2 {
+  font-family: "Roboto";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 47px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.colleaction p {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 20px;
+}
+.colleaction .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.colleaction .top .category {
+  width: 288px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.137254902);
+  border-radius: 10px;
+  border: none;
+}
+.colleaction .top .category h3:hover {
+  background-color: rgb(183, 92, 255);
+}
+.colleaction .top .category h3 {
+  width: 288px;
+  height: 40px;
+  padding: 5px 70px;
+  background-color: rgba(255, 255, 255, 0.137254902);
+  border-radius: 10px;
+  border: none;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 2px;
+  color: #fff;
+  text-align: center;
+}
+
+.card {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card .box:hover {
+  background-color: gray;
+}
+.card .box:hover button {
+  background-color: transparent;
+  border: 1px solid rgb(183, 92, 255);
+  color: rgb(183, 92, 255);
+}
+.card .box {
+  width: 389px;
+  height: 595px;
+  padding: 25px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.137254902);
+  margin-top: 20px;
+}
+.card .box img {
+  width: 339px;
+}
+.card .box .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  gap: 30px;
+}
+.card .box .top .left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card .box .top .right {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.card .box .top small {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.5);
+}
+.card .box .top p {
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.5);
+}
+.card .box .top h3 {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+.card .box button {
+  width: 337px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 20px;
+  gap: 10px;
+  background-color: rgb(183, 92, 255);
+  margin-top: 20px;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
 }/*# sourceMappingURL=main.css.map */
