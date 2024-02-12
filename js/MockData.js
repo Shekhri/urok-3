@@ -59,3 +59,26 @@ var data2 = [
     },
 
 ]
+var creators = [
+    {
+        id: 2,
+        image: "./assets/images/creators1.png",
+        avatar: "./assets/images/creator1-2.png",
+        Name: "Karina",
+        Comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+        id: 2,
+        image: "./assets/images/creator2.png",
+        avatar: "./assets/images/creator2-2.png",
+        Name: "John Wick",
+        Comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+        id: 2,
+        image: "./assets/images/creator3.png",
+        avatar: "./assets/images/creator3-2.png",
+        Name: "Yuliana",
+        Comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    }
+]

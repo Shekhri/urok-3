@@ -128,3 +128,46 @@ for (var i = 0; i < data2.length; i++) {
     Card.appendChild(Box)
 
 }
+
+console.log(creators);
+var Creators = document.querySelector("#creators")
+
+for (var i = 0; i < creators.length; i++) {
+    const element = creators[i];
+
+    var Box = document.createElement('div')
+    Box.className = "box"
+
+    var BackImage = document.createElement("img")
+    BackImage.className = "box__img"
+    BackImage.setAttribute( "src", element.image)
+
+    var BoxText = document.createElement("div")
+    BoxText.className = "text"
+
+    var BoxAvatar = document.createElement("img")
+    BoxAvatar.className = "avatar"
+    BoxAvatar.getAttribute("src", element.avatar)
+
+     var Name = document.createElement("h3")
+     Name.className = "name"
+     Name.textContent = element.Name
+
+     var BoxComment = document.createElement("p")
+     BoxComment.className = "comment"
+     BoxComment.textContent = element.Comment
+
+     var Button = document.createElement("button")
+     Button.className = "button"
+     Button.textContent = "+ Follow"
+
+     BoxText.appendChild(Name)
+     BoxText.appendChild(BoxComment)
+     BoxText.appendChild(Button)
+
+     Box.appendChild(BackImage)
+     Box.appendChild(BoxAvatar)
+     Box.appendChild(BoxText)
+    
+Creators.appendChild(Box)
+}

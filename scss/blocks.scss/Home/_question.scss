@@ -1,0 +1,44 @@
+.question{
+    margin-top: 100px;
+    h2{
+font-family: 'Poppins';
+font-size: 40px;
+font-weight: 700;
+line-height: 47px;
+letter-spacing: 0em;
+text-align: left;
+color: rgb(255, 255, 255, 1);
+text-align: center;
+    }
+    p{
+        font-family: "Poppins";
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+color: rgb(255, 255, 255, 0.5);
+margin-top: 20px;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    input{
+        width: 591px;
+        height: 50px;
+        background-color: transparent;
+        border: none;
+        padding: 10px 50px;
+        margin-top: 50px;
+        // color: red;
+    }
+    hr{
+        width: 579px;
+        height: 1.5px;
+        border: none;
+        background-color: gray;
+    }
+}
+}
