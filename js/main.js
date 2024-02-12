@@ -147,7 +147,7 @@ for (var i = 0; i < creators.length; i++) {
 
     var BoxAvatar = document.createElement("img")
     BoxAvatar.className = "avatar"
-    BoxAvatar.getAttribute("src", element.avatar)
+    BoxAvatar.setAttribute("src", element.avatar)
 
      var Name = document.createElement("h3")
      Name.className = "name"
