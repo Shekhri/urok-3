@@ -34,7 +34,9 @@ margin-top: 20px;
         border: none;
 
         h3:hover {
-            background-color: rgba(183, 92, 255, 1);
+            background: -webkit-linear-gradient(90deg, rgb(183, 92, 255), rgb(103, 26, 228));
+            background: -moz-linear-gradient(90deg, rgb(183, 92, 255), rgb(103, 26, 228));
+            background: linear-gradient(90deg, rgb(183, 92, 255), rgb(103, 26, 228));
         }
         
         h3{

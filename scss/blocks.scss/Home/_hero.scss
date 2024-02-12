@@ -26,7 +26,9 @@
     }
 
     .active {
-        background-color: rgba(183, 92, 255, 1);
+        background: -webkit-linear-gradient(90deg, rgb(183, 92, 255), rgb(103, 26, 228));
+        background: -moz-linear-gradient(90deg, rgb(183, 92, 255), rgb(103, 26, 228));
+        background: linear-gradient(90deg, rgb(183, 92, 255), rgb(103, 26, 228));
         padding: 10px 20px;
         border-radius: 10px;
         font-family: 'Poppins';
